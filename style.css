@@ -62,7 +62,7 @@ h4 {
 	color: #FFF6ED;
 	margin-left: 20px;
 	font-family: 'Bitter', serif;
-	font-size: 22px;
+	font-size: 18px;
 	border-bottom: 1px dotted white;
 	margin-bottom: -10px;
 	margin-top: -10px;
@@ -118,7 +118,7 @@ nav ul li a:visited {
 	min-height: 400px;
 	padding-bottom: 20px;
 	color: #FFF6ED;
-	font-size: 16px;
+	font-size: 14px;
 
 }
 .right-column h3 {
@@ -135,7 +135,7 @@ nav ul li a:visited {
 .main-content h3 {
 	background:#019875; /* TO ADAPT SITE: Use Darker Color Here */
 	color:white;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: normal;
 	font-family: 'Bitter', serif;
 	padding-top:10px;
@@ -145,7 +145,7 @@ nav ul li a:visited {
 
 }
 .main-content p {
-	font-size:16px;
+	font-size:14px;
 	color: #FFF6ED;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.4;
@@ -241,6 +241,9 @@ table ul li {
 
 /* Responsive Layouts */
 	@media only screen and (max-width: 1375px) {
+		.main-content h3 {
+		font-size: 20px;
+	}
 		.current_schedule a {
 			background: #03A678; /*TO ADAPT SITE: Use Lighter color Here */
 		}
@@ -339,6 +342,7 @@ table ul li {
 			padding-bottom: 20px;
 
 	}
+
 		.right-column {
 			float:none;
 			width: 100%;
@@ -351,7 +355,7 @@ table ul li {
 		font-size: 14px;
 	}
 	.right-column h3 {
-		font-size: 22px;
+		font-size: 20px;
 	}
 	#container {
 		margin: 0;
